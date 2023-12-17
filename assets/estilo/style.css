@@ -1,3 +1,78 @@
-*{
-    background-color: blueviolet;
+/**/
+@import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
+
+/* Estilos UNIVERSAIS*/
+
+
+
+
+body{
+    background: linear-gradient(45deg, rgb(47, 0, 255), rgb(102, 4, 105));
+    z-index: -1;
+    
 }
+
+/* Estilos CLASSES*/
+
+.topo{
+    
+    height: 70px;
+    background-color: gray;
+    margin: 5px;
+}
+
+.div_intro{
+    margin: 15px;
+    padding: 20px;
+   
+}
+
+.div_html{
+    padding-top: 30px;
+    
+    
+}
+
+.foto_html{
+    width: 25%;
+    float: left;
+    padding-top: 30px;
+}
+.intro_html{
+    display: inline-block;
+    font-family: Arial;
+    font-size: 10px;
+    text-align: center;
+    vertical-align: top;
+    width: 100%;
+    
+}
+
+/* Estilos ID*/
+
+/* Estilos COMBINADOS*/
+
+.div_intro p{
+    font-family: Nabla;
+}
+
+
+/* DEMAIS estilos*/
+
+ p{
+    display: inline-block;
+    vertical-align: top;
+    width: 40%;
+    font-size: 30px;
+    text-align: center;
+    padding-left: 5%;
+    
+}
+
+img{
+    
+    float: right;  
+    width: 50%;  
+    height: 50%;
+
+ }
