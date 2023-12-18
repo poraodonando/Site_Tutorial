@@ -9,10 +9,13 @@
 body{
     background: linear-gradient(45deg, rgb(47, 0, 255), rgb(102, 4, 105));
     z-index: -1;
+    min-width: 90%;
     
 }
 
 /* Estilos CLASSES*/
+
+
 
 .topo{
     
@@ -21,33 +24,104 @@ body{
     margin: 5px;
 }
 
-.div_intro{
+.intro{
     margin: 15px;
-    padding: 20px;
+}
+
+
+.div_intro{
+    display: inline-block;
+    padding-left: 30px;
+    width: 40%;
+    font-size: 30px;
+    text-align: center;
+    
    
 }
-
-.div_html{
-    padding-top: 30px;
-    
-    
+.img_intro{
+    display: flex;
+    float: right;
+    width: 50%;  
+    height: 50%;
 }
 
-.foto_html{
+.html{
+    padding: 15px;
+}
+
+
+
+.img_html{
     width: 25%;
     float: left;
-    padding-top: 30px;
+    display: inline-block;
+
 }
 .intro_html{
     display: inline-block;
     font-family: Arial;
-    font-size: 10px;
+    font-size: 25px;
+    width: 65%;
     text-align: center;
     vertical-align: top;
-    width: 100%;
+   
     
 }
+.css{
+    padding: 15px;
+}
 
+.intro_css{
+
+    display: block;
+    width: 65%;
+    vertical-align: top;
+    font-size: 25px;
+    text-align: center;
+    vertical-align: top;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.img_css{
+display: inline-block;
+float: right;
+width: 25%;
+}
+
+.js{
+margin: 15px;
+}
+.intro_js{
+    display: inline-block;
+    font-family: Arial;
+    font-size: 25px;
+    width: 65%;
+    text-align: center;
+    vertical-align: top;
+}
+.img_js{
+    display: inline-block;
+    width: 25%;
+    float: left;
+}
+.git_github{
+    
+}
+.img_gg{
+    max-height: 40%;
+    width: auto;
+    display: inline-block;
+    float: right;
+    object-fit: contain;
+}
+
+.intro_git_github{
+    display: inline-block;
+    font-family: Arial;
+    font-size: 25px;
+    width: 55%;
+    text-align: center;
+    vertical-align: top;
+}
 /* Estilos ID*/
 
 /* Estilos COMBINADOS*/
@@ -59,20 +133,4 @@ body{
 
 /* DEMAIS estilos*/
 
- p{
-    display: inline-block;
-    vertical-align: top;
-    width: 40%;
-    font-size: 30px;
-    text-align: center;
-    padding-left: 5%;
-    
-}
 
-img{
-    
-    float: right;  
-    width: 50%;  
-    height: 50%;
-
- }
